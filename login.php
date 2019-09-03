@@ -14,9 +14,9 @@ if(!$conn)
     die("connection failed".mysqli_connect_error());
 }
 
-$sql="INSERT INTO login_table(id,username,password,email)VALUES
-(1,'dhanya','123g','dha@gmail.com'),
-(2,'gopu','345hj','gopu@gmail.com')";
+$sql="INSERT INTO login_table(id,username,password,email,address,phonenumber)VALUES
+(1,'dhanya','123g','dha@gmail.com','asdfhjutjkbbnn','45679900009'),
+(2,'gopu','345hj','gopu@gmail.com','sfghuusfhghgjc','34567899985')";
 $result=mysqli_query($conn,$sql);
 if($result)
 {
