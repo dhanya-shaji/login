@@ -8,11 +8,11 @@ $(document).ready(function() {
                 if (res.resultCode ==1) {
                     alert("login succesfull");
                     localStorage.setItem("username",userid);
-                    
-
+                    window.location = "homepage.html"
                 }
                 else {
                     alert("username and password are incorect");
+                
                 }
 
 
